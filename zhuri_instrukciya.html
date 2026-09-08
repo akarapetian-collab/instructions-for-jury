@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Інструкція для журі — Національна відзнака «Родина для кожної дитини. Better Care Awards»</title>
+<style>
+  :root {
+    --teal: #2f5f66;
+    --cream: #fbf3e9;
+    --salmon: #e59a94;
+    --text: #2b2b2b;
+    --muted: #6b6b6b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--cream) url("zhuri_img/fon.png") no-repeat center top fixed;
+    background-size: 100% auto;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 40px 24px 80px; }
+  header.hero {
+    background: var(--teal);
+    color: white;
+    padding: 48px 24px;
+    text-align: center;
+    border-radius: 0 0 24px 24px;
+    margin-bottom: 40px;
+  }
+  header.hero h1 { font-size: 28px; margin: 0 0 8px; }
+  header.hero p { font-size: 16px; opacity: 0.9; margin: 0; }
+  nav.toc {
+    background: white;
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  nav.toc h2 { margin-top: 0; font-size: 18px; color: var(--teal); }
+  nav.toc ol { margin: 0; padding-left: 20px; }
+  nav.toc a { color: var(--teal); text-decoration: none; font-weight: 600; }
+  nav.toc a:hover { text-decoration: underline; }
+  section {
+    background: white;
+    border-radius: 16px;
+    padding: 32px 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  section h2 {
+    color: var(--teal);
+    font-size: 22px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  section h2 .num {
+    background: var(--salmon);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  p { margin: 0 0 14px; }
+  ul, ol.steps { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .tip {
+    background: #fff7ee;
+    border-left: 4px solid var(--salmon);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  .tip strong { color: var(--teal); }
+  .warn {
+    background: #fdecea;
+    border-left: 4px solid #d9534f;
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  .intro-warn {
+    background: #fdecea;
+    border-left: 4px solid #d9534f;
+    padding: 20px 24px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+  }
+  .intro-warn p { margin: 0 0 12px; }
+  .intro-warn ul { margin: 0 0 12px; padding-left: 22px; }
+  .intro-warn li { margin-bottom: 6px; }
+  .intro-warn p:last-child, .intro-warn ul:last-child { margin-bottom: 0; }
+  .shot {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #e5ddd0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 14px 0 4px;
+    display: block;
+  }
+  .caption {
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  a.mail { color: var(--teal); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div style="text-align:center;padding:32px 24px 0;">
+  <img src="zhuri_img/logo.png" alt="Better Care Awards" style="max-width:170px;display:inline-block;">
+</div>
+
+<header class="hero">
+  <h1>Національна відзнака «Родина для кожної дитини. Better Care Awards»</h1>
+  <p>Інструкція для Експертного журі: реєстрація та оцінювання заявок</p>
+</header>
+
+<nav class="toc">
+  <h2>Зміст</h2>
+  <ol>
+    <li><a href="#faq">Корисно знати</a></li>
+    <li><a href="#reg">Реєстрація</a></li>
+    <li><a href="#dashboard">Ваші призначення оцінювання</a></li>
+    <li><a href="#list">Список заявок, закріплених за вами</a></li>
+    <li><a href="#score">Оцінювання заявки</a></li>
+    <li><a href="#abstain">Утриматися від оцінювання</a></li>
+  </ol>
+</nav>
+
+<div class="intro-warn">
+  <p><strong>Дякуємо, що погодилися стати частиною Експертного журі.</strong> Ми дуже цінуємо ваш час і фаховість.</p>
+  <p><strong>Просимо дотримуватись чесності та неупередженості під час оцінювання.</strong> Оцінюйте заявки виключно на основі їхнього змісту й визначених критеріїв — без впливу особистих зв'язків, симпатій чи стороннього тиску. Будь-яке зловживання становищем судді або необ'єктивне оцінювання неприпустиме. Якщо серед заявників є особа чи організація, щодо якої у вас може виникнути конфлікт інтересів — не оцінюйте цю заявку і скористайтесь опцією «Утриматися від оцінювання» (розділ 6 нижче).</p>
+  <p>Уся робота журі відбувається в розділі <strong>«Оцінювач»</strong> на платформі (він з'явиться у верхньому меню одразу після входу) — саме там ви знайдете призначені вам заявки та зможете виставляти оцінки.</p>
+</div>
+
+<section id="faq">
+  <h2><span class="num">1</span>Корисно знати</h2>
+  <p>– Оцінювання відбувається в межах раунду журі — дати раунду вказані на сторінці «Мої призначення оцінювання».</p>
+  <p>– Оцінки можна редагувати протягом усього раунду, поки він не завершився.</p>
+  <p>– Дотримуйтесь принципу конфіденційності: не обговорюйте зміст заявок поза межами процесу оцінювання.</p>
+  <p>– Якщо виникнуть запитання щодо процесу оцінювання чи критеріїв, пишіть нам на <a class="mail" href="mailto:bca@childcare.org.ua">bca@childcare.org.ua</a> — ми допоможемо.</p>
+</section>
+
+<section id="reg">
+  <h2><span class="num">2</span>Реєстрація</h2>
+  <p>Ви отримаєте лист-запрошення до Експертного журі. Перейдіть за посиланням із листа — відкриється форма реєстрації. Вкажіть ім'я, прізвище та встановіть пароль (не менше 12 символів, з цифрою, великою й малою літерою та спеціальним символом).</p>
+  <img src="zhuri_img/z_01_reg.png" alt="Форма реєстрації судді" class="shot">
+  <p class="caption">Форма реєстрації — заповніть ім'я, прізвище та пароль</p>
+</section>
+
+<section id="dashboard">
+  <h2><span class="num">3</span>Ваші призначення оцінювання</h2>
+  <p>Після входу ви потрапите у вкладку <strong>«Оцінювач»</strong>. На екрані «Мої призначення оцінювання» видно розділ оцінювання, дати раунду та кількість заявок, призначених саме вам. Натисніть <strong>«Розпочати»</strong>, щоб перейти до списку заявок.</p>
+  <img src="zhuri_img/z_02_assignments.png" alt="Сторінка «Мої призначення оцінювання»" class="shot">
+  <p class="caption">Тут видно, скільки заявок вам призначено, і кнопку «Розпочати»</p>
+</section>
+
+<section id="list">
+  <h2><span class="num">4</span>Список заявок, закріплених за вами</h2>
+  <p>Відкриється список заявок, які саме вам потрібно оцінити. За потреби список можна фільтрувати за номінацією. Натисніть на заявку, щоб перейти до її оцінювання.</p>
+  <img src="zhuri_img/z_03_list.png" alt="Список заявок, закріплених за суддею" class="shot">
+  <p class="caption">Список заявок з можливістю фільтрувати за номінацією</p>
+</section>
+
+<section id="score">
+  <h2><span class="num">5</span>Оцінювання заявки</h2>
+  <p>На сторінці заявки спочатку показані дані заявника — ПІБ, посада, контакти, опис ініціативи тощо. Ознайомтеся з ними, а потім прогорніть нижче, до самих критеріїв оцінювання.</p>
+  <img src="zhuri_img/z_04_entry_header.png" alt="Сторінка заявки з даними заявника" class="shot">
+  <p class="caption">Дані заявника — прогорніть нижче, щоб перейти до критеріїв</p>
+  <p>Нижче — п'ять критеріїв оцінювання. Біля кожного критерію вказано, <strong>яку вагу він має у загальному балі заявки</strong> (наприклад, 15% чи 25%) — це допоможе зрозуміти, наскільки уважно варто зважувати кожну відповідь.</p>
+  <img src="zhuri_img/z_05_criteria1.png" alt="Критерії оцінювання з вагою кожного критерію" class="shot">
+  <p class="caption">Кожен критерій оцінюється від 0 до 100 балів, вага критерію вказана під описом</p>
+  <img src="zhuri_img/z_06_criteria2.png" alt="Критерій «Внесок у досягнення цілей Стратегії»" class="shot">
+  <p class="caption">Останній критерій — відповідність цілям Стратегії</p>
+  <p>Виставте бал від 0 до 100 за кожним критерієм, орієнтуючись на запитання під ним:</p>
+  <img src="zhuri_img/z_07_score_filled.png" alt="Приклад виставленої оцінки" class="shot">
+  <p class="caption">Приклад: оцінка 93/100 за критерієм «Сталість та цінність досвіду»</p>
+  <div class="tip"><strong>Порада:</strong> кнопки «Попередній» і «Далі» дозволяють переходити між призначеними вам заявками, а «Закрити» — зберігає прогрес і повертає до списку. Оцінки можна змінити пізніше, за потреби, поки триває раунд оцінювання.</div>
+</section>
+
+<section id="abstain">
+  <h2><span class="num">6</span>Утриматися від оцінювання</h2>
+  <p>Якщо серед заявників є особа чи організація, щодо якої у вас може виникнути конфлікт інтересів (особисте знайомство, професійна взаємодія тощо) — не оцінюйте цю заявку.</p>
+  <div class="warn"><strong>Важливо:</strong> позначте прапорець <strong>«Утриматися від оцінювання»</strong> у верхній частині сторінки заявки — і одразу переходьте до наступної. Це не вплине на решту ваших призначень.</div>
+</section>
+
+<footer>
+  Дякуємо за вашу експертизу та час!<br>Організаційна команда Better Care Awards
+</footer>
+
+</div>
+</body>
+</html>
